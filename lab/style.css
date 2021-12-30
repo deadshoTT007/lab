@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.root{
+    margin-left: 50px;
+}
+th{
+    background-color: rgb(245, 245, 245);
+}
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+.headerText{
+    font-weight: 700;
+}
+.headerText,.subHeaderText{
+    margin: 5px 0;
+}
+.listContainer{
+    margin-top: 50px;
+}
+.description{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+ul{
+    margin-top: 5px;
+}
+li{
+    margin-left: 40px;
+}
+.listContainer2{
+    margin-top: 20px;
+}
+.imageContainer{
+    margin-top: 30px;
+}
+img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+.bgContainer{
+    margin-top: 30px;
+    height: 300px;
+    background: #000;
+    background-size: cover;
+    background-image: url('/lab/image/zhang.jpeg');
+}
+.formContainer{
+    width: 700px;
+    margin-top: 40px;
+    padding: 16px;
+    border: 1px solid #000;
+}
+.flexContainer{
+margin: 16px 0;
+display:flex;
+justify-content: space-between;
+/* align-items: center; */
+}
+.flexContainer>input,.flexContainer>select,.flexContainer>textarea{
+    flex-basis: 60%;
+}
+.flexContainer>h3{
+    margin-top: 5px;
+}
+input[type="radio"]{
+    display: block;
+    margin: 20px;
+    margin-left: 40%;
+}
+input[type="checkbox"]{
+    margin:10px 5px ;
+    margin-left: 40%;
+}
+select{
+    background:rgb(245, 245, 245);
+}
+input,select{
+    padding: 5px;
+}
+
+.button{
+    display:block;
+    margin-left: 40%;
+    outline: none;
+    border: none;
+    padding: 20px;
+    width: 150px;
+    font-weight: 700;
+    border-radius: 6px;
+}

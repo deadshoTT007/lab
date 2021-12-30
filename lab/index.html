@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="root">
+    <h1 style="margin-top:30px;margin-bottom:20px; ">A complex table</h1>
+    <table cellspacing="0"  height="400px" width="800px" style="text-align: left;">
+        <tr>
+            <th colspan="3">Invoice #123456789</th>
+            <th >14 january</th>
+        </tr>
+      
+          
+                    <tr>
+                        
+                        <td colspan="2">
+                           <div class="headerText">Pay to:</div>
+                           <div class="subHeaderText">Acme Billing Co.</div>
+                          <div class="subHeaderText">123 Main St.</div>
+                          <div class="subHeaderText">Cityville, NA 12345</div>
+                        </td>
+                        <td colspan="2">
+                            <div class="headerText">Customer:</div>
+                            <div class="subHeaderText">John Smith</div>
+                           <div class="subHeaderText">321 Willow Way</div>
+                           <div class="subHeaderText">Southeast Northwestershire, MA 54321</div>
+                         </td>
+                    </tr>
+                    <tr>
+                        <th>Name/Description</th>
+                        <th>Qty.</th>
+                        <th>@</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <td>Paperclips</td>
+                        <td>1000</td>
+                        <td>0.01</td>                    
+                        <td>10.00</td>
+                    </tr>
+                    <tr>
+                        <td>Staples (box)</td>
+                        <td>100</td>
+                        <td>1.00</td>                   
+                        <td>100.00</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Subtitle</th>
+                        <td>110.00</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Tax</th>
+                        <td>8%</td>
+                        <td>8.80</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Grand Total</th>
+                        <td>$ 118.80</td>
+                    </tr>  
+    </table>
+    <div class="formContainer">
+        <form action="">
+            <div class="flexContainer">
+                <h4>Name</h4>
+                <input type="text">
+            </div>
+            <div class="flexContainer">
+                <h4>Phone</h4>
+                <input type="number">
+            </div>
+            <div class="flexContainer">
+                <h4>Email</h4>
+                <input type="email">
+            </div>
+            <h4>Which taki do you require?</h4>
+            <div class="radioContainer">
+                <input type="radio" value="Car" checked>
+                <input type="radio" value="Van">
+                <input type="radio" value="Tuk Tuk">
+            </div>
+            <div class="checkBox">
+                <h4>Extras</h4>
+                <input type="checkbox" value="Baby Seat" >
+                <label for="">Baby Seat</label>
+                <br>
+                <input type="checkbox" value="Wheelchair Access">
+                <label for="">Wheelchair Access</label>
+                <br>
+                <input type="checkbox" value="Stock Tip">
+                <label for="">Stock Tip</label>
+            </div>
+            <div class="time">
+                <div class="flexContainer">
+                <h3>Pick Date/Time</h3>
+                <input type="date">
+            </div>
+            </div>
+            <div class="select">
+                <div class="flexContainer">
+                    <h3>Pickup Place</h3>
+                    <select name="cars" id="cars">
+                        <option value="volvo">Select 1</option>
+                        <option value="saab">Select 2</option>
+                        <option value="opel">Select 3</option>
+                        <option value="audi">Select 4</option>
+                      </select>
+                </div>
+            </div>
+            <div class="dropPlace">
+                <div class="flexContainer">
+                    <h3>Dropoff Place</h3>
+                    <input type="text" name="" id="">
+                </div>
+            </div>
+            <div class="instruction">
+                <div class="flexContainer">
+                    <h3>Special Instructions</h3>
+                    <textArea rows="8"></textArea>
+                </div>
+            </div>
+            <div class="buttonContainer">
+                    <button class="button">Submit Booking</button>   
+                    
+            </div>
+        </form>
+    </div>
+    <div class="listContainer">
+        <h3 class="unordered">Cake</h3>
+        <p class="description">A baked food made of flour.</p>
+        <ul>
+<li>Choclate Cake</li>
+<li>Black Forest Cake</li>
+<li>Pineapple cake</li>
+        </ul>
+        <div class="listContainer2">
+            <h3 class="unordered">Driving</h3>
+            <p class="description">Steps for driving a car.</p>
+            <ol>
+    <li>Fasten your seatbelt</li>
+    <li>Starts the car's engine</li>
+    <li>Look around and go</li>
+            </ul>
+    </div>
+
+    <div class="imageContainer">
+        <img src="/lab/image/zhang.jpeg" alt="">
+    </div>
+    <div class="bgContainer"></div>
+</div>
+</body>
+</html>
